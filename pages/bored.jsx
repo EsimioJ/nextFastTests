@@ -3,12 +3,10 @@ import Layout from '../components/layout';
 
 export default function Pippo({ data }) {
   return (
-    <Layout>
       <main>
         <h1>Feeling bored?</h1>
         <p>Just... {data.activity}, bitch!</p>
       </main>
-    </Layout>
   );
 }
 
